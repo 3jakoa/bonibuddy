@@ -157,6 +157,8 @@ async def time_selected(update: Update, context: ContextTypes.DEFAULT_TYPE) -> i
         [InlineKeyboardButton("Center", callback_data="l:Center")],
         [InlineKeyboardButton("Rožna", callback_data="l:Rožna")],
         [InlineKeyboardButton("Bežigrad", callback_data="l:Bežigrad")],
+        [InlineKeyboardButton("Šiška", callback_data="l:Šiška")],
+        [InlineKeyboardButton("Vič", callback_data="l:Vič")],
         [InlineKeyboardButton("Drugo", callback_data="l:Drugo")],
     ]
 
